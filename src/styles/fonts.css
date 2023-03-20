@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'HakenGrotesk';
+    font-weight: normal;
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'HakenGrotesk';
+    font-weight: 500;
+    src: url('../assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'HakenGrotesk';
+    font-weight: 700;
+    src: url('../assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'HakenGrotesk';
+    font-weight: 800;
+    src: url('../assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}

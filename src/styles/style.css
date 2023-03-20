@@ -1,0 +1,83 @@
+@import url('./fonts.css');
+
+:root {
+  --mainFont: HakenGrotesk;
+
+  --lightRed: #ff5757;
+  --orangeYellow: #ffb01f;
+  --greenTeal: #00bd91;
+  --cobaltBlue: #1125d4;
+
+
+  --lightSlateBlue: #7857ff;
+  --lightRoyalBlue: #2e2be9;
+
+  --violetBlue: #4e21ca;
+  --persianBlue: #2421ca00;
+
+  --white: #FFF;
+  --paleBlue: #ebf1ff;
+  --lightLavender: #c8c7ff;
+  --darkGreyBlue: #303b5a;
+}
+
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--mainFont);
+  background-color: aliceblue;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.pa {
+  position: absolute;
+}
+
+.lightRed {
+  color: var(--lightRed);
+  background-color: rgb(255, 87, 87, 0.1);
+}
+
+.orangeYellow {
+  color: var(--orangeYellow);
+  background-color: rgb(255, 176, 31, 0.1);
+}
+
+.greenTeal {
+  color: var(--greenTeal);
+  background-color: rgb(0, 189, 145, 0.1);
+}
+
+.cobaltBue {
+  color: var(--cobaltBlue);
+  background-color: rgb(17, 37, 212, 0.1);
+}
+
+.blurryText {
+  opacity: 0.5;
+}
