@@ -16,7 +16,7 @@
 	const isLoading = ref(true);
 
 	const getDataFromJson = async () => {
-		const result = await fetch('../../data.json');
+		const result = await fetch('../../data/data.json');
 		const data = await result.json();
 		scores.value = data;
 
