@@ -26,13 +26,13 @@
 			default: 'Icon Name',
 		},
 		score: {
-			type: String,
-			default: '100',
+			type: Number,
+			default: 100,
 		},
 		bg: String,
 	});
 
-	const imagePath = computed(() => `${props.icon}`);
+	const imagePath = computed(() => `./src/assets/images/${props.icon}`);
 </script>
 <style scoped>
 	.bullet {
