@@ -32,7 +32,7 @@
 		bg: String,
 	});
 
-	const imagePath = computed(() => `./src/assets/images/${props.icon}`);
+	const imagePath = computed(() => `./assets/images/${props.icon}`);
 </script>
 <style scoped>
 	.bullet {
